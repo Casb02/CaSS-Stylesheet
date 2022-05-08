@@ -1,0 +1,60 @@
+
+//Define the base color palette for the theme.
+$color-primary: #5A7D7C !default;
+$color-secondary: #A0C1D1 !default;
+$color-light: #DADFF7 !default;
+$color-dark: #232C33 !default;
+$color-gray: #B5B2C2 !default;
+$black: #000 !default;
+$white: #fff !default;
+
+//Map the theme colors to use in the scss files.
+$theme-colors: (
+        "primary": $color-primary,
+        "secondary": $color-secondary,
+        "light": $color-light,
+        "dark": $color-dark,
+        "gray": $color-gray,
+        "black": $black,
+        "white": $white
+) !default;
+
+//Fonts
+$default-font: 'Lato', sans-serif !default;
+
+
+//Bereakpoints (stolen from Bootstrap)
+$breakpoint-xs: 480px !default;
+$breakpoint-sm: 576px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-lg: 992px !default;
+$breakpoint-xl: 1200px !default;
+
+//Map all breakpoints
+$breakpoints: (
+        "xs": $breakpoint-xs,
+        "sm": $breakpoint-sm,
+        "md": $breakpoint-md,
+        "lg": $breakpoint-lg,
+        "xl": $breakpoint-xl
+) !default;
+
+//Container widths
+$container-xs: 460px !default;
+$container-sm: 540px !default;
+$container-md: 720px !default;
+$container-lg: 960px !default;
+$container-xl: 1140px !default;
+
+//Map all container widths
+$container-widths: (
+        "xs": $container-xs,
+        "sm": $container-sm,
+        "md": $container-md,
+        "lg": $container-lg,
+        "xl": $container-xl
+) !default;
+
+//Navigatie properties
+$nav-height: 5rem !default;
+$nav-item-margin-y: 1rem !default;

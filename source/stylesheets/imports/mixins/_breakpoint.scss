@@ -1,0 +1,19 @@
+@import "../settings";
+
+@mixin responsive($map, $property, $prefix: '') {
+    @each $key, $value in $map {
+      .#{$prefix}-#{$key} {
+        #{$property}: $value !important;
+      }
+  }
+  @each $breakpoint, $size in $breakpoints {
+    @media (min-width: $size) {
+      @each $key, $value in $map {
+        .#{$prefix}-#{$breakpoint}-#{$key} {
+          #{$property}: $value !important;
+        }
+      }
+    }
+  }
+}
+

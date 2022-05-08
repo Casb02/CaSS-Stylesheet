@@ -1,0 +1,10 @@
+@import "../mixins/breakpoint";
+$displays-values: (
+        block: block,
+        il-block: inline-block,
+        flex: flex,
+        il-flex: inline-flex,
+        none: none,
+);
+
+@include responsive($displays-values, 'display', 'd');

@@ -1,0 +1,48 @@
+@import "settings";
+
+.navbar {
+  height: $nav-height;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-left: 0;
+  margin-right: $nav-item-margin-y;
+
+  .nav-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+
+    &::before {
+      content: "";
+
+    }
+
+    &:hover {
+      filter: brightness(85%);
+
+    }
+  }
+
+  &.disabled {
+    filter: brightness(85%);
+    .nav-link {
+      cursor: not-allowed;
+      filter: brightness(100%);
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

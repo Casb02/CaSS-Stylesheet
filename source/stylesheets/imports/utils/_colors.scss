@@ -1,0 +1,5 @@
+@import "../settings";
+@import "../mixins/breakpoint";
+
+@include responsive($theme-colors, 'color', 'text');
+@include responsive($theme-colors, 'background-color', 'bgc');

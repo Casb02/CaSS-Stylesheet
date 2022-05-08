@@ -1,0 +1,10 @@
+@import "../mixins/breakpoint";
+$spacing-values: (
+        100: 100%,
+        75: 75%,
+        50: 50%,
+        25: 25%
+);
+
+@include responsive($spacing-values, 'width', 'w');
+@include responsive($spacing-values, 'height', 'h');

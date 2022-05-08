@@ -1,0 +1,15 @@
+@import "settings";
+body {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  @each $key, $value in $theme-colors {
+    --cass-#{$key}: #{$value};
+  }
+  @each $key, $value in $breakpoints {
+    --cass-breakpoint-#{$key}: #{$value};
+  }
+  --cass-font-family: 'Lato', sans-serif;
+}
