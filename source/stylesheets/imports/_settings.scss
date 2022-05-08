@@ -21,7 +21,8 @@ $theme-colors: (
 
 //Fonts
 $default-font: 'Lato', sans-serif !default;
-
+$body-color: $black !default;
+$link-color: $color-primary !default;
 
 //Bereakpoints (stolen from Bootstrap)
 $breakpoint-xs: 480px !default;

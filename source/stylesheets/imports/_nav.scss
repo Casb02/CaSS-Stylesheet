@@ -30,13 +30,13 @@
     }
 
     &:hover {
-      filter: brightness(85%);
+      filter: brightness(65%);
 
     }
   }
 
   &.disabled {
-    filter: brightness(85%);
+    filter: brightness(65%);
     .nav-link {
       cursor: not-allowed;
       filter: brightness(100%);

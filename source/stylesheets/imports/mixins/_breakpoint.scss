@@ -1,16 +1,29 @@
 @import "../settings";
 
-@mixin responsive($map, $property, $prefix: '') {
+@mixin responsive($map, $property, $prefix: '', $prefix-extra: '') {
+  $placePrefix: $prefix-extra != '';
     @each $key, $value in $map {
-      .#{$prefix}-#{$key} {
-        #{$property}: $value !important;
+      @if $placePrefix {
+        .#{$prefix}-#{$key}, .#{$prefix-extra}-#{$key}  {
+          #{$property}: $value !important;
+        }
+      } @else {
+        .#{$prefix}-#{$key}  {
+          #{$property}: $value !important;
+        }
       }
   }
   @each $breakpoint, $size in $breakpoints {
     @media (min-width: $size) {
       @each $key, $value in $map {
-        .#{$prefix}-#{$breakpoint}-#{$key} {
-          #{$property}: $value !important;
+        @if $placePrefix {
+          .#{$prefix}-#{$breakpoint}-#{$key}, .#{$prefix-extra}-#{$breakpoint}-#{$key}  {
+            #{$property}: $value !important;
+          }
+        } @else {
+          .#{$prefix}-#{$breakpoint}-#{$key}  {
+            #{$property}: $value !important;
+          }
         }
       }
     }

@@ -1,5 +1,26 @@
+@import "settings";
+@import "mixins/colortools";
 .btn {
+  padding: .75rem 1rem;
+  margin: .2rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  border-radius: .25rem;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+}
 
+@each $color, $hex in $theme-colors {
+  .btn-#{$color} {
+    background-color: $hex;
+    @include color-contrast($hex);
+
+    &:hover {
+      @include bg-contrast($hex);
+      @include color-contrast($hex);
+      text-decoration: none;
+    }
+  }
 }
 
 // All colors

@@ -1,0 +1,15 @@
+@mixin color-contrast($color) {
+  @if (lightness($color) > 50) {
+    color: black;
+  } @else {
+    color: white;
+  }
+}
+
+@mixin bg-contrast($color) {
+  @if (lightness($color) > 50) {
+    background-color: darken($color, 11%);
+  } @else {
+    background-color: lighten($color, 11%);
+  }
+}
