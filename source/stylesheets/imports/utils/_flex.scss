@@ -1,14 +1,14 @@
 @import "../mixins/breakpoint";
 
 $flex-item-values: (
-        center: center,
-        end: flex-end,
-        start: flex-start
+        center:   center,
+        end:      flex-end,
+        start:    flex-start
 );
 
 $flex-item-jc-values: (
-        around: space-around,
-        between: space-between,
+        around:   space-around,
+        between:  space-between,
 );
 
 @include responsive($flex-item-values, 'justify-content', 'flex-jc');

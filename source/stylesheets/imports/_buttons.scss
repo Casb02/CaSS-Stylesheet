@@ -1,13 +1,13 @@
 @import "settings";
 @import "mixins/colortools";
 .btn {
-  padding: .75rem 1rem;
-  margin: .2rem;
-  border: 1px solid #ccc;
-  font-size: 1rem;
+  padding:        .75rem 1rem;
+  margin:         .2rem;
+  border:         1px solid #ccc;
+  font-size:      1rem;
   border-radius: .25rem;
-  cursor: pointer;
-  transition: background-color .2s ease-in-out;
+  cursor:         pointer;
+  transition:     background-color .2s ease-in-out;
 }
 
 @each $color, $hex in $theme-colors {
