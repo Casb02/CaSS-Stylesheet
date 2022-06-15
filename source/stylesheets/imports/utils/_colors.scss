@@ -1,5 +1,20 @@
 @import "../settings";
 @import "../mixins/breakpoint";
 
-@include responsive($theme-colors, 'color', 'text');
-@include responsive($theme-colors, 'background-color', 'bgc');
+
+@if($responsive-colors) {
+  @include responsive($theme-colors, 'color', 'text');
+  @include responsive($theme-colors, 'background-color', 'bgc');
+} @else {
+  @each $name, $code in $theme-colors {
+    .text-#{$name} {
+      color: $code
+    }
+  }
+
+  @each $name, $code in $theme-colors {
+    .bgc-#{$name} {
+      background-color: $code
+    }
+  }
+}

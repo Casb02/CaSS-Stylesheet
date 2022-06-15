@@ -15,6 +15,9 @@ $color-teal:      #19a4b5 !default;
 $black:           #000 !default;
 $white:           #fff !default;
 
+//if set to true, it wil generate 500+ extra lines of css
+$responsive-colors: false;
+
 //Map the theme colors to use in the scss files.
 $theme-colors: (
         "primary":    $color-primary,
@@ -32,7 +35,6 @@ $theme-colors: (
         "black":      $black,
         "white":      $white
 ) !default;
-
 
 
 //Fonts
