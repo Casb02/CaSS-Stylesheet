@@ -1,28 +1,44 @@
 
 //Define the base color palette for the theme.
-$color-primary: #5A7D7C !default;
+$color-primary:   #5A7D7C !default;
 $color-secondary: #A0C1D1 !default;
-$color-light: #DADFF7 !default;
-$color-dark: #232C33 !default;
-$color-gray: #B5B2C2 !default;
-$black: #000 !default;
-$white: #fff !default;
+$color-light:     #DADFF7 !default;
+$color-dark:      #232C33 !default;
+$color-gray:      #B5B2C2 !default;
+$color-red:       #E85858 !default;
+$color-green:     #5ed13e !default;
+$color-blue:      #2ba7e3 !default;
+$color-yellow:    #FFCB00 !default;
+$color-orange:    #e38220 !default;
+$color-purple:    #d469e5 !default;
+$color-teal:      #19a4b5 !default;
+$black:           #000 !default;
+$white:           #fff !default;
 
 //Map the theme colors to use in the scss files.
 $theme-colors: (
-        "primary": $color-primary,
-        "secondary": $color-secondary,
-        "light": $color-light,
-        "dark": $color-dark,
-        "gray": $color-gray,
-        "black": $black,
-        "white": $white
+        "primary":    $color-primary,
+        "secondary":  $color-secondary,
+        "light":      $color-light,
+        "dark":       $color-dark,
+        "gray":       $color-gray,
+        "red":        $color-red,
+        "green":      $color-green,
+        "blue":       $color-blue,
+        "yellow":     $color-yellow,
+        "orange":     $color-orange,
+        "purple":     $color-purple,
+        "teal":       $color-teal,
+        "black":      $black,
+        "white":      $white
 ) !default;
 
+
+
 //Fonts
-$default-font: 'Lato', sans-serif !default;
-$body-color: $black !default;
-$link-color: $color-primary !default;
+$default-font:    'Lato', sans-serif !default;
+$body-color:      $black !default;
+$link-color:      $color-primary !default;
 
 //Breakpoints (stolen from Bootstrap)
 $breakpoint-xs: 480px !default;
@@ -57,5 +73,14 @@ $container-widths: (
 ) !default;
 
 //Navigatie properties
-$nav-height: 5rem !default;
+$nav-height:        5rem !default;
 $nav-item-margin-y: 1rem !default;
+
+//Card properties
+$card-margin-y:       1rem !default;
+$card-margin-x:       1rem !default;
+$card-padding-y:      1rem !default;
+$card-padding-x:      1rem !default;
+$card-border-radius:  0.25rem !default;
+$card-header-text:    $white !default;
+$card-header-bg:      $color-primary !default;
