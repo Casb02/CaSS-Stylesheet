@@ -10,13 +10,13 @@
 }
 
 $grid-columns: 12;
-$gutter_width: 15;
 
 // Defaults for all columns
 // Check if class starts with col-
 [class^="col"] {
   flex:         0 0 100%;
   max-width:    100%;
+  box-sizing:   border-box;
   border-left:  transparent solid 7px;
   border-right: transparent solid 7px;
 }
