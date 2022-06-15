@@ -3,6 +3,7 @@
 .container {
   max-width:  92%;
   margin:     0 auto;
+  overflow:   hidden;
   @each $container, $width in $container-widths {
     @media (min-width: map-get($breakpoints, $container)) {
       max-width: #{$width};
@@ -13,4 +14,5 @@
 .container-fw {
   max-width:  95%;
   margin:     0 auto;
+  overflow:   hidden;
 }
