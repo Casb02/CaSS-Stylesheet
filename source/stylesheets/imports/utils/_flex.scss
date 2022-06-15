@@ -15,3 +15,17 @@ $flex-item-jc-values: (
 @include responsive($flex-item-jc-values, 'justify-content', 'flex-jc');
 @include responsive($flex-item-values, 'align-items', 'flex-ai');
 
+$flex-len: (
+        flex-grow-1: (flex-grow: 1),
+        flex-grow-0: (flex-grow: 0),
+        flex-shrink-1: (flex-shrink: 1),
+        flex-shrink-0: (flex-shrink: 0)
+);
+
+@each $name, $value in $flex-len {
+  .#{$name} {
+    @each $prop, $val in $value {
+      #{$prop}: $val;
+    }
+  }
+}

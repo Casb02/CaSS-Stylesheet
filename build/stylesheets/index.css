@@ -2395,6 +2395,82 @@ body {
     align-items: flex-start !important;
   }
 }
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
+.flex-shrink-1 {
+  flex-shrink: 1;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.border-all {
+  border: 1px solid;
+}
+
+.border-none {
+  border: 0 solid;
+}
+
+.border-t-1 {
+  border-top: 1px solid;
+}
+
+.border-r-1 {
+  border-right: 1px solid;
+}
+
+.border-b-1 {
+  border-bottom: 1px solid;
+}
+
+.border-l-1 {
+  border-left: 1px solid;
+}
+
+.border-x-1 {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.border-y-1 {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.border-t-0 {
+  border-top: 0 solid;
+}
+
+.border-r-0 {
+  border-right: 0 solid;
+}
+
+.border-b-0 {
+  border-bottom: 0 solid;
+}
+
+.border-l-0 {
+  border-left: 0 solid;
+}
+
+.border-x-0 {
+  border-left: 0 solid;
+  border-right: 0 solid;
+}
+
+.border-y-0 {
+  border-top: 0 solid;
+  border-bottom: 0 solid;
+}
+
 body {
   font-family: "Lato", sans-serif;
   color: #000;
