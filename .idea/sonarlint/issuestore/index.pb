@@ -3,27 +3,15 @@
 .source/stylesheets/imports/utils/_spacing.scss,6\8\68e59264cbe9b99ccc677202da0ad7ab7bf54de9
 V
 &source/stylesheets/imports/_utils.scss,0\d\0d16861c8c26f07b95f75f1c17c4b65b08479521
-U
-%source/stylesheets/imports/_card.scss,2\7\27e6975d751463cff28bc497b85399491f102972
-[
-+source/stylesheets/imports/_typography.scss,e\0\e0c0a8cca31238e96613b536da6b789d263f0f96
 T
 $source/stylesheets/imports/_nav.scss,e\1\e1d509c0b76f39b1bbb388aecd4decd79b3a9384
-[
-+source/stylesheets/imports/_containers.scss,a\2\a2198aaae2993b2dd8578dc819f50d2b8a6341b6
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-[
-+source/stylesheets/imports/utils/_flex.scss,3\b\3b697f38f8faf472b8e187e9efa66c52595bb07e
 ^
 .source/stylesheets/imports/utils/_display.scss,4\c\4c140e0a33507e4033e2847a81368849f1c81cd1
 X
 (source/stylesheets/imports/_buttons.scss,3\4\344418bb367928118368683a77622abba6f45fe0
-K
-build/stylesheets/index.css,9\4\9433f18d6835726a51051789621cd6b629a0bd86
-O
-build/stylesheets/index.css.map,6\9\69339063b36d820552b9258d71bf1d9a7410453e
 `
 0source/stylesheets/imports/grid/_gridsystem.scss,9\9\99f44a8e4ca5d3026730d2688a9d6eca289e24ce
 V

@@ -30,3 +30,19 @@ $heading-sizes: (
     line-height: 1.2;
   }
 }
+
+//Text utils
+$align-text: (
+        left: 'left',
+        center: 'center',
+        right: 'right',
+        start: 'start',
+        end: 'end',
+        justify: 'justify',
+        inherit: 'inherit'
+);
+@each $key, $value in $align-text {
+  .text-#{$key} {
+    text-align: $value;
+  }
+}

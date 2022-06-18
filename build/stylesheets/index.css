@@ -2185,6 +2185,14 @@ body {
   flex-shrink: 0;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 .border-all {
   border: 1px solid;
 }
@@ -2289,10 +2297,37 @@ h6 {
   line-height: 1.2;
 }
 
+.text-left {
+  text-align: "left";
+}
+
+.text-center {
+  text-align: "center";
+}
+
+.text-right {
+  text-align: "right";
+}
+
+.text-start {
+  text-align: "start";
+}
+
+.text-end {
+  text-align: "end";
+}
+
+.text-justify {
+  text-align: "justify";
+}
+
+.text-inherit {
+  text-align: "inherit";
+}
+
 .container {
   max-width: 92%;
   margin: 0 auto;
-  overflow: hidden;
 }
 @media (min-width: 480px) {
   .container {
@@ -2323,7 +2358,18 @@ h6 {
 .container-fw {
   max-width: 95%;
   margin: 0 auto;
+}
+
+.overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-hidden-y {
+  overflow-y: hidden;
+}
+
+.overflow-hidden-x {
+  overflow-x: hidden;
 }
 
 .btn {
@@ -2519,9 +2565,12 @@ h6 {
 
 .card {
   margin: 1rem 1rem;
-  max-width: 400px;
   padding: 1rem 1rem;
   text-align: center;
+}
+
+.card-mw {
+  max-width: 400px;
 }
 
 .card-header {
