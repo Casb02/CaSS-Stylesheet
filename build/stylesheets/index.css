@@ -2185,6 +2185,14 @@ body {
   flex-shrink: 0;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 .border-all {
   border: 1px solid;
 }
@@ -2320,7 +2328,6 @@ h6 {
 .container {
   max-width: 92%;
   margin: 0 auto;
-  overflow: hidden;
 }
 @media (min-width: 480px) {
   .container {
@@ -2351,7 +2358,18 @@ h6 {
 .container-fw {
   max-width: 95%;
   margin: 0 auto;
+}
+
+.overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-hidden-y {
+  overflow-y: hidden;
+}
+
+.overflow-hidden-x {
+  overflow-x: hidden;
 }
 
 .btn {
