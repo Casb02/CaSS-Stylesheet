@@ -2289,6 +2289,34 @@ h6 {
   line-height: 1.2;
 }
 
+.text-left {
+  text-align: "left";
+}
+
+.text-center {
+  text-align: "center";
+}
+
+.text-right {
+  text-align: "right";
+}
+
+.text-start {
+  text-align: "start";
+}
+
+.text-end {
+  text-align: "end";
+}
+
+.text-justify {
+  text-align: "justify";
+}
+
+.text-inherit {
+  text-align: "inherit";
+}
+
 .container {
   max-width: 92%;
   margin: 0 auto;
@@ -2519,9 +2547,12 @@ h6 {
 
 .card {
   margin: 1rem 1rem;
-  max-width: 400px;
   padding: 1rem 1rem;
   text-align: center;
+}
+
+.card-mw {
+  max-width: 400px;
 }
 
 .card-header {
