@@ -15,7 +15,9 @@ $spacing-values: (
         2: 0.5rem,
         3: 1rem,
         4: 1.5rem,
-        5: 2rem
+        5: 2rem,
+        6: 3rem,
+        7: 4rem,
 );
 //Margin
 @include responsive($spacing-values, 'margin-top', 'mt', 'my');
@@ -31,3 +33,12 @@ $spacing-values: (
 @include responsive($spacing-values, 'padding-left', 'pl', 'px');
 @include responsive($spacing-values, 'padding-right', 'pr', 'px');
 @include responsive($spacing-values, 'padding', 'p');
+
+
+//text spacing
+hr {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid $color-dark;
+  width: 100%;
+}

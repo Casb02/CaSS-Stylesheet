@@ -43,6 +43,6 @@ $align-text: (
 );
 @each $key, $value in $align-text {
   .text-#{$key} {
-    text-align: $value;
+    text-align: $key;
   }
 }

@@ -1,5 +1,5 @@
 @mixin color-contrast($color) {
-  @if (lightness($color) > 50) {
+  @if (lightness($color) > 70) {
     color: black;
   } @else {
     color: white;
